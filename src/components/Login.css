@@ -1,0 +1,178 @@
+.login__page{
+    height: 100vh;
+    width: 100vw;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+}
+
+.login__page>*{
+    width: 40%;
+    height: 90%;
+    /* background-color: white; */
+}
+.cousel__container {
+    text-align: center !important;
+    height: 100% !important;
+    width: 29% !important;
+    /* display: none; */
+}
+.loginform__container{
+    border: 0.1px solid lightgray;
+   width: 40%;
+}
+.loginform__container>*{
+    margin-left: 10%;
+}
+
+.instalogotext{
+    height:20%;
+    width: 80%;
+    text-align: center;
+}
+
+.instalogotext>img{
+    height: 100%;
+}
+.loginform{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   padding: 10px;
+}
+.loginform>*{
+    margin-bottom: 10px !important;
+}
+.signup__option{
+ text-align: center;
+ margin-left: 4%;
+}
+.caro {
+    overflow: hidden;
+    /* border: 1px solid; */
+    height: 57%;
+    width: 15%;
+    top: 22.1%;
+    left: 20%;
+    position: absolute;
+    /* margin-top: -178%; */
+    /* margin-left: 32.7%; */
+}
+.caro>figure{
+    position: relative;
+    width: 101%;
+    margin: 0;
+    left:0;
+    display: flex;
+    animation: 20s slider infinite;
+    height: 100%;
+}
+figure>img{
+    height: 101%;
+    width: 101%;
+    /* margin-left: 6.7rem; */
+    margin-top: -5px;
+    float: left;
+    
+}
+@keyframes slider{
+    0%{
+        left :0%;
+        
+    }
+    20%{
+       left : -95%
+    }
+    25%{
+      left: -190%;
+    }
+    75%{
+        left:-290%
+    }
+    /* 100%{
+        left: -405%;
+    } */
+}
+.cousel__container>img{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .cousel__container{
+        display: none;
+    }
+    .loginform__container{
+        width: 100%;
+    }
+    .loginform__container>*{
+        margin-left: 1%;
+    }
+    .loginform{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       padding: 10px;
+    }
+    
+  }
+  @media only screen and (width: 768px) {
+  
+    .loginform__container{
+        width: 50%;
+    }
+    .loginform__container>*{
+        margin-left: 1%;
+    }
+    .loginform{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       padding: 10px;
+    }
+    /* .cousel__container {
+        text-align: center !important;
+        height: 90% !important;
+        width: 87% !important;
+    } */
+    .caro {
+        overflow: hidden;
+        /* border: 1px solid; */
+        height: 55%;
+        width: 19.5%;
+        top: 23.1%;
+        left: 18.5%;
+        position: absolute;
+        /* margin-top: -178%; */
+        /* margin-left: 32.7%; */
+    }
+    .cousel__container {
+        text-align: center !important;
+        height: 90% !important;
+        width: 39% !important;
+    }
+  }
+  @media only screen and (width: 1024px) {
+  
+    
+    .caro {
+        overflow: hidden;
+        /* border: 1px solid; */
+        height: 61%;
+        width: 15%;
+        top: 20.1%;
+        left: 20%;
+        position: absolute;
+        /* margin-top: -178%; */
+        /* margin-left: 32.7%; */
+    }
+     .cousel__container {
+        text-align: center !important;
+        height: 100% !important;
+        width: 29% !important;
+        /* display: none; */
+    }
+ 
+  }

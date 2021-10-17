@@ -1,0 +1,90 @@
+@media only screen and (width: 1024px) {
+  
+    .loginform__container{
+        width: 50%;
+    }
+    .loginform__container>*{
+        margin-left: 1%;
+    }
+    .loginform{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       padding: 10px;
+    }
+    .crousel__image{
+        height: 100% !important;
+        width: 100% !important;
+        margin-top: -1rem;
+    }
+    
+    .caro {
+        overflow: hidden;
+        /* border: 1px solid; */
+        height: 61%;
+        width: 15%;
+        top: 20.1%;
+        left: 20%;
+        position: absolute;
+        /* margin-top: -178%; */
+        /* margin-left: 32.7%; */
+    }
+     .cousel__container {
+        text-align: center !important;
+        height: 100% !important;
+        width: 29% !important;
+        /* display: none; */
+    }
+ 
+  }
+  @media only screen and (width: 1440px) {
+  
+    .loginform__container{
+        width: 50%;
+    }
+    .loginform__container>*{
+        margin-left: 1%;
+    }
+    .loginform{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       padding: 10px;
+    }
+    /* .cousel__container {
+        text-align: center !important;
+        height: 100% !important;
+        width: 47% !important;
+    } */
+    .caro {
+        overflow: hidden;
+        /* border: 1px solid; */
+        height: 72%;
+        width: 58%;
+        /* position: absolute; */
+        margin-top: 7.8rem;
+        margin-left: 12.6rem;
+    }
+    .cousel__container {
+        text-align: center !important;
+        height: 100% !important;
+        width: 44% !important;
+        /* display: none; */
+    }
+    
+    
+  } 
+  .caro {
+    overflow: hidden;
+    /* border: 1px solid; */
+    height: 54%;
+    width: 19.2%;
+    /* position: absolute; */
+    margin-top: 1%;
+    margin-left: -1.2%;
+}
+.cousel__container {
+    text-align: center !important;
+    height: 90% !important;
+    width: 39% !important;
+}

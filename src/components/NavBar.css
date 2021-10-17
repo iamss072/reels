@@ -1,0 +1,48 @@
+.app__bar{
+    display: flex;
+    align-items: center;
+    /* width: 100vw; */
+    border: 0.1px solid rgb(236, 236, 236);
+    background-color: white;
+    position:sticky;
+    z-index: 999;
+}
+.insta__logoImage{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+.insta__logoImage>img{
+  /* height: 50%; */
+  width: 30%;
+}
+.header__options{
+    display: flex;
+    width: 70%;
+    height: 100%;
+}
+.header__profileimage{
+   height: 1.5rem !important;
+   width: 1.5rem !important;
+}
+.header__options>*{
+  width: 25%;
+}
+@media only screen and (max-width: 600px) {
+    .insta__logoImage>img{
+        /* height: 50%; */
+        width: 100%;
+      }
+      .insta__logoImage{
+        width: 18%;
+        height: 100%;
+    }
+    .header__options{
+        display: flex;
+        width: 50%;
+        height: 100%;
+    }
+    .header__options>*{
+        width: 10% !important;
+      }
+  }
